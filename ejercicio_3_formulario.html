@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="d-flex align-items-end bg-1 text-white px-4 px-md-5 pt-3 pb-2 ">
+        <img src="img/Logo.png" alt="Logo" class="logo mr-2 mb-2">
+        <p class="h5 lead mb-2">Logo & Brand Name</p>
+    </div>
+    <!-- End Header -->
+
+    <!-- Steps -->
+    <div class="d-flex justify-content-around justify-content-md-center border-bottom px-4 pt-3">
+        <div class="d-flex mx-md-3">
+            <img src="img/Step1.png" alt="Step1" class="step mx-1">
+            <small><p>Step One</p></small>
+        </div>
+        <div class="d-flex mx-md-3">
+            <img src="img/Step2.png" alt="Step2" class="step mx-1">
+            <small><p>Step Two</p></small>
+        </div>
+        <div class="d-flex mx-md-3">
+            <img src="img/Step3.png" alt="Step3" class="step mx-1">
+            <small><p>Step Three</p></small>
+        </div>
+    </div>
+    <!-- End Steps -->
+
+    <!-- Forms -->
+    <div class="container-fluid bg-page pt-3 px-3 px-md-5">
+
+        <!-- container flex forms principal -->
+        <div class="d-flex flex-column flex-md-row mx-md-4">
+
+            <!-- Form Personal data -->
+            <form action="" class="d-flex mr-md-4">
+                <!-- Cotainer general -->
+                <div class="d-flex flex-column bg-white border mt-3 px-4 pt-4">
+
+                    <p class="font-weight-bold h4 mb-4">Personal Data</p>
+                    <!-- Container inputs personal data, primer bloque-->
+                    <div class="d-flex flex-column">
+
+                        <!-- Container, primer bloque de inputs -->
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="form-group mb-3 mr-md-3">
+                                <div class="d-flex flex-column align-items-start">
+                                    <label for="name" class="font-weight-bold text-muted">Full name</label>
+                                    <input type="text" id="name" class="input border rounded ">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3 mr-md-3">
+                                <div class="d-flex flex-column align-items-start">
+                                    <label for="idnumber" class="font-weight-bold text-muted">ID number</label>
+                                    <input type="text" id="idnumber" class="input border rounded ">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3 mr-md-3">
+                                <div class="d-flex flex-column align-items-start">
+                                    <label for="license" class="font-weight-bold text-muted">Driving license issued year</label>
+                                    <input type="text" id="license" class="input border rounded ">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- End Container, primer bloque de inputs -->
+
+                        <!-- Container, segundo bloque de inputs -->
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="form-group mb-3 mr-md-3">
+                                <div class="d-flex flex-column align-items-start">
+                                    <label for="email" class="font-weight-bold text-muted">Email</label>
+                                    <input type="email" id="email" class="input border rounded ">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3 mr-md-3">
+                                <div class="d-flex flex-column align-items-start">
+                                    <label for="number" class="font-weight-bold text-muted">Phone number</label>
+                                    <input type="text" id="number" class="input border rounded ">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3 mr-md-3">
+                                <div class="d-flex flex-column align-items-start">
+                                    <label for="age" class="font-weight-bold text-muted">Age of the youngest driver</label>
+                                    <input type="text" id="age" class="input border rounded ">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Container, segundo bloque de inputs -->
+
+                    </div>
+                    <!-- End Container inputs personal data, primer bloque-->
+
+                    <p class="font-weight-bold h4 mt-3 mb-4">Car Data</p>
+                    <!-- Container inputs car data -->
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="form-group mb-3 mr-md-3">
+                            <div class="d-flex flex-column align-items-start">
+                                <label for="model" class="font-weight-bold text-muted">Car model code</label>
+                                <input type="text" id="model" class="input border rounded ">
+                            </div>
+                        </div>
+                        <div class="form-group mb-3 mr-md-3">
+                            <div class="d-flex flex-column align-items-start">
+                                <label for="plate" class="font-weight-bold text-muted">Car license plate</label>
+                                <input type="text" id="plate" class="input border rounded ">
+                            </div>
+                        </div>
+                        <div class="form-group mb-3 mr-md-3">
+                            <div class="d-flex flex-column align-items-start">
+                                <label for="make" class="font-weight-bold text-muted">Car make and model</label>
+                                <input type="text" id="make" class="input border rounded ">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Container inputs car data -->
+
+                    <p class="font-weight-bold h4 mt-3 mb-4">Insurance History</p>
+                    <!-- Container isurance history -->
+                    <div class="d-flex flex-column">
+                        <div class="form-group">
+                            <input id="hade" type="checkbox" class="mr-1">
+                            <span>I hade no usurance claims last 3 years( the other options is the opposit)</span>
+                        </div>
+                        <div class="form-group">
+                            <input id="privet" type="checkbox" class="mr-1" checked>
+                            <label for="privet">I use my car for privet use only</label>
+                        </div>
+                        <div class="form-group">
+                            <input id="contains" type="checkbox" class="mr-1">
+                            <label for="contains">The car contains an anti-theft device</label>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-md-between">
+                            <div class="d-flex">
+                                <div class="form-group">
+                                    <input id="agree" type="checkbox" class="mr-1">
+                                    <label for="agree">I agree to the terms of use</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end mb-3 mt-2 mt-md-0">
+                                <button class="btn btn-secondary">change</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End Container isurance history -->
+                </div>
+                <!-- End Cotainer general -->
+
+            </form>
+            <!-- End Form Personal data -->
+
+            <!-- container flex dos forms -->
+            <div class="d-flex flex-column">
+
+                <!-- Form General -->
+                <form action="" class="d-flex">
+                    <!-- Cotainer general -->
+                    <div class="conform d-flex flex-column bg-white border mt-3  px-4 pt-4 ">
+                        <p class="font-weight-bold h4">General</p>
+                        <div class="form-group mt-4">
+                            <div class="d-flex flex-column align-items-start">
+                                <label for="insurance" class="font-weight-bold text-muted">insurance type</label>
+                                <input type="text" id="insurance" class="input border rounded">
+                            </div>
+                        </div>
+                        <div class="form-group mt-1">
+                            <div class="d-flex flex-column align-items-start">
+                                <label for="insurance-date" class="font-weight-bold text-muted">insurance start date</label>
+                                <div>
+                                    <input type="text" id="insurance-date" value="30" class="date col-3 col-md-1 border rounded">
+                                    <input type="text" id="insurance-date" value="09" class="date col-3 col-md-1 border rounded">
+                                    <input type="text" id="insurance-date" value="2000" class="date col-3 col-md-2 border rounded">
+                                    <img src="img/calendary.png" alt="calendary" class="calen mx-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end py-3">
+                            <button class="btn btn-secondary">change</button>
+                        </div>
+                    </div>
+                    <!-- End Cotainer general -->
+                </form>
+                <!-- End Form General -->
+
+                <!-- Form driver's details -->
+                <form action="" class="d-flex">
+                    <!-- Cotainer general driver's details -->
+                    <div class="conform d-flex flex-column bg-white border mt-3 px-4 py-4">
+
+                        <p class="font-weight-bold h4 mt-3 mb-4">Driver's Details</p>
+                        <!-- Container, inputs driver's details-->
+                        <div class="d-flex flex-column flex-md-row form-group mb-3 mr-md-3">
+                            <div class="d-flex flex-column align-items-start mr-md-5">
+                                <label for="dname" class="font-weight-bold text-muted">Main driver name</label>
+                                <input type="text" id="dname" class="input border rounded ">
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <label for="dage" class="font-weight-bold text-muted">Main driver age</label>
+                                <input type="text" id="dage" class="input border rounded ">
+                            </div>
+                        </div>
+                        <!-- End Container, inputs driver's details -->
+                        <div class="d-flex justify-content-end mt-2 mt-md-0">
+                            <button class="btn bg-1 text-white mr-2">+</button>
+                            <button class="btn btn-secondary">change</button>
+                        </div>
+                    </div>
+                    <!-- End Cotainer general driver's details -->
+                </form>
+                <!-- End Form driver's details -->
+
+            </div>
+            <!-- End container flex dos forms -->
+
+        </div>
+        <!-- End container flex forms principal -->
+
+        <!-- form, botton final -->
+        <form action="">
+            <div class="d-flex justify-content-end py-3">
+                <button class="btn bg-1 text-white"><p class="h5 lead px-4">Renew Insurance</p></button>
+            </div>
+        </form>
+        <!-- End form, botton final -->
+    </div>
+    <!-- end forms-->
+
+    <!-- Opctional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
